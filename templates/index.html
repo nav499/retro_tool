@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>!nteger_Retro_Tool</title>
+    <style>
+        body {
+            background-color: #121212;
+            color: #39ff14;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            flex-direction: column;
+            margin: 0;
+        }
+        h1 {
+            color: blue;
+            margin-bottom: 20px;
+        }
+        .form-group {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            width: 90%;
+            max-width: 1000px;
+            background: #1e1e1e;
+            padding: 20px;
+            border-radius: 10px;
+        }
+        .input-group {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 48%;
+            margin-bottom: 15px;
+        }
+        label {
+            font-weight: bold;
+            color: #39ff14;
+            font-size: 14px;
+            width: 50%;
+            text-align: right;
+            margin-right: 10px;
+        }
+        input {
+            padding: 8px;
+            border: none;
+            border-radius: 5px;
+            background: white;
+            color: black;
+            font-size: 14px;
+            width: 50%;
+        }
+        button {
+            background-color: blue;
+            color: #39ff14;
+            padding: 10px 20px;
+            margin-top: 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        .footer {
+            position: fixed;
+            bottom: 10px;
+            right: 10px;
+            font-weight: bold;
+            font-style: italic;
+            color: #ff6700;
+            font-size: 40px;
+        }
+        .logo {
+            margin-top: 10px;
+            width: 150px;
+            height: auto;
+        }
+        .form-container {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+    <img src="{{ url_for('static', filename='image.png') }}" alt="Integer Telecom Services Inc" class="logo">
+    <h1>!nteger_Retro_Tool</h1>
+    <div class="form-container">
+        <div class="form-group">
+            <form action="/" method="post" style="width: 100%; display: flex; flex-wrap: wrap; justify-content: space-between;">
+                <div class="input-group"><label>Node ID:</label><input type="text" name="node_id" required></div>
+                <div class="input-group"><label>RRU Number:</label><input type="text" name="rru_number" required></div>
+                <div class="input-group"><label>Antenna Unit Group:</label><input type="text" name="antenna_unit_group" required></div>
+                <div class="input-group"><label>Antenna Unit:</label><input type="text" name="antenna_unit" required></div>
+                <div class="input-group"><label>Antenna Subunit:</label><input type="text" name="antenna_subunit" required></div>
+                <div class="input-group"><label>Sector Carrier:</label><input type="text" name="sector_carrier" required></div>
+                <div class="input-group"><label>Sector Equipment Function:</label><input type="text" name="sector_equipment_function" required></div>
+                <div class="input-group"><label>EUtran Cell FDD:</label><input type="text" name="eutran_cell_fdd" required></div>
+                <div class="input-group"><label>Max Tx Power:</label><input type="text" name="max_tx_power" required></div>
+                <div class="input-group"><label>Attenuation:</label><input type="text" name="attenuation" required></div>
+                <div class="input-group"><label>Traffic Delay:</label><input type="text" name="traffic_delay" required></div>
+                <div class="input-group"><label>RF Port Existing 1:</label><input type="text" name="rf_port_existing_1" required></div>
+                <div class="input-group"><label>RF Port Existing 2:</label><input type="text" name="rf_port_existing_2" required></div>
+                <div class="input-group"><label>RF Port New 1:</label><input type="text" name="rf_port_new_1" required></div>
+                <div class="input-group"><label>RF Port New 2:</label><input type="text" name="rf_port_new_2" required></div>
+                <div class="input-group"><label>RF Branch Existing 1:</label><input type="text" name="rf_branch_existing_1" required></div>
+                <div class="input-group"><label>RF Branch Existing 2:</label><input type="text" name="rf_branch_existing_2" required></div>
+                <div class="input-group"><label>RF Branch New 1:</label><input type="text" name="rf_branch_new_1" required></div>
+                <div class="input-group"><label>RF Branch New 2:</label><input type="text" name="rf_branch_new_2" required></div>
+                <div style="width: 100%; display: flex; justify-content: center;">
+                    <button type="submit">Generate Script</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="footer">N@vneet</div>
+</body>
+</html>

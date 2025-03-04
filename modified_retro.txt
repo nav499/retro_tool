@@ -1,0 +1,263 @@
+create
+FDN : "SubNetwork=ONRM_ROOT_MO,MeContext=UNL00038,ManagedElement=UNL00038,Equipment=1,FieldReplaceableUnit=RRU-1"
+administrativeState : UNLOCKED
+fieldReplaceableUnitId : "RRU-1"
+isSharedWithExternalMe : false
+positionInformation : <empty>
+positionRef : <empty>
+unitOpticalIndicatorControl : NOT_SET
+userLabel : <empty>
+
+
+create
+FDN : "SubNetwork=ONRM_ROOT_MO,MeContext=UNL00038,ManagedElement=UNL00038,Equipment=1,FieldReplaceableUnit=RRU-1,RfBranch=E"
+administrativeState : UNLOCKED
+antennaSupervisionActive : false
+automaticANUrecovery : true
+pimdAlarmActive : false
+pimdMeasDuration : LONG
+pimdThreshold : 300
+rfPortId : "E"
+userLabel : <empty>
+vswrSupervisionActive : true
+vswrSupervisionSensitivity : 70
+
+create
+FDN : "SubNetwork=ONRM_ROOT_MO,MeContext=UNL00038,ManagedElement=UNL00038,Equipment=1,FieldReplaceableUnit=RRU-1,RfBranch=F"
+administrativeState : UNLOCKED
+antennaSupervisionActive : false
+automaticANUrecovery : true
+pimdAlarmActive : false
+pimdMeasDuration : LONG
+pimdThreshold : 300
+rfPortId : "F"
+userLabel : <empty>
+vswrSupervisionActive : true
+vswrSupervisionSensitivity : 70
+
+create
+FDN : "SubNetwork=ONRM_ROOT_MO,MeContext=UNL00038,ManagedElement=UNL00038,Equipment=1,FieldReplaceableUnit=RRU-1,RfBranch=G"
+administrativeState : UNLOCKED
+antennaSupervisionActive : false
+automaticANUrecovery : true
+pimdAlarmActive : false
+pimdMeasDuration : LONG
+pimdThreshold : 300
+rfPortId : "G"
+userLabel : <empty>
+vswrSupervisionActive : true
+vswrSupervisionSensitivity : 70
+
+create
+FDN : "SubNetwork=ONRM_ROOT_MO,MeContext=UNL00038,ManagedElement=UNL00038,Equipment=1,FieldReplaceableUnit=RRU-1,RfBranch=H"
+administrativeState : UNLOCKED
+antennaSupervisionActive : false
+automaticANUrecovery : true
+pimdAlarmActive : false
+pimdMeasDuration : LONG
+pimdThreshold : 300
+rfPortId : "H"
+userLabel : <empty>
+vswrSupervisionActive : true
+vswrSupervisionSensitivity : 70
+
+
+create
+FDN : "SubNetwork=ONRM_ROOT_MO,MeContext=UNL00038,ManagedElement=UNL00038,Equipment=1,FieldReplaceableUnit=RRU-1,RfPort=R"
+administrativeState : UNLOCKED
+antennaSupervisionActive : false
+automaticANUrecovery : true
+pimdAlarmActive : false
+pimdMeasDuration : LONG
+pimdThreshold : 300
+rfPortId : "R"
+userLabel : <empty>
+vswrSupervisionActive : false
+vswrSupervisionSensitivity : -1
+
+
+create
+FDN : "SubNetwork=ONRM_ROOT_MO,MeContext=UNL00038,ManagedElement=UNL00038,Equipment=1,FieldReplaceableUnit=RRU-1,RiPort=DATA_1"
+administrativeState : UNLOCKED
+preferredSfpProductNumber : <empty>
+riPortId : "DATA_1"
+
+create
+FDN : "SubNetwork=ONRM_ROOT_MO,MeContext=UNL00038,ManagedElement=UNL00038,Equipment=1,FieldReplaceableUnit=RRU-1,RiPort=DATA_2"
+administrativeState : UNLOCKED
+preferredSfpProductNumber : <empty>
+riPortId : "DATA_2"
+
+
+
+create
+FDN : SubNetwork=ONRM_ROOT_MO,MeContext=UNL00038,ManagedElement=UNL00038,Equipment=1,AntennaUnitGroup=3,AntennaUnit=3,AntennaSubunit=3,AuPort=1
+auPortId : "1"
+userLabel : <empty>
+
+create
+FDN : SubNetwork=ONRM_ROOT_MO,MeContext=UNL00038,ManagedElement=UNL00038,Equipment=1,AntennaUnitGroup=3,AntennaUnit=3,AntennaSubunit=3,AuPort=2
+auPortId : "2"
+userLabel : <empty>
+
+create
+FDN : SubNetwork=ONRM_ROOT_MO,MeContext=UNL00038,ManagedElement=UNL00038,Equipment=1,AntennaUnitGroup=3,AntennaUnit=3,AntennaSubunit=3,AuPort=3
+auPortId : "3"
+userLabel : <empty>
+
+
+create
+FDN : SubNetwork=ONRM_ROOT_MO,MeContext=UNL00038,ManagedElement=UNL00038,Equipment=1,AntennaUnitGroup=3,AntennaUnit=3,AntennaSubunit=3,AuPort=4
+auPortId : "4"
+userLabel : <empty>
+
+
+create
+FDN : SubNetwork=ONRM_ROOT_MO,MeContext=UNL00038,ManagedElement=UNL00038,Equipment=1,AntennaUnitGroup=3,RfBranch=10
+auPortRef : <empty>
+dlAttenuation : [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+dlAttenuationPerFqRange : [-1, -1]
+dlTrafficDelay : [35, 35, 35, 35, 35, 35, 35, 35, 35, 35, 35, 35, 35, 35, 35]
+dlTrafficDelayPerFqRange : [-1, -1]
+rfBranchId : "10"
+rfPortRef : <empty>
+tmaRef : <empty>
+ulAttenuation : [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+ulAttenuationPerFqRange : [-1, -1]
+ulTrafficDelay : [35, 35, 35, 35, 35, 35, 35, 35, 35, 35, 35, 35, 35, 35, 35]
+ulTrafficDelayPerFqRange : [-1, -1]
+userLabel : <empty>
+
+
+
+create
+FDN : SubNetwork=ONRM_ROOT_MO,MeContext=UNL00038,ManagedElement=UNL00038,Equipment=1,AntennaUnitGroup=3,RfBranch=11
+auPortRef : <empty>
+dlAttenuation : [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+dlAttenuationPerFqRange : [-1, -1]
+dlTrafficDelay : [35, 35, 35, 35, 35, 35, 35, 35, 35, 35, 35, 35, 35, 35, 35]
+dlTrafficDelayPerFqRange : [-1, -1]
+rfBranchId : "11"
+rfPortRef : <empty>
+tmaRef : <empty>
+ulAttenuation : [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+ulAttenuationPerFqRange : [-1, -1]
+ulTrafficDelay : [35, 35, 35, 35, 35, 35, 35, 35, 35, 35, 35, 35, 35, 35, 35]
+ulTrafficDelayPerFqRange : [-1, -1]
+userLabel : <empty>
+
+
+create
+FDN : SubNetwork=ONRM_ROOT_MO,MeContext=UNL00038,ManagedElement=UNL00038,Equipment=1,AntennaUnitGroup=3,RfBranch=12
+auPortRef : <empty>
+dlAttenuation : [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+dlAttenuationPerFqRange : [-1, -1]
+dlTrafficDelay : [35, 35, 35, 35, 35, 35, 35, 35, 35, 35, 35, 35, 35, 35, 35]
+dlTrafficDelayPerFqRange : [-1, -1]
+rfBranchId : "12"
+rfPortRef : <empty>
+tmaRef : <empty>
+ulAttenuation : [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+ulAttenuationPerFqRange : [-1, -1]
+ulTrafficDelay : [35, 35, 35, 35, 35, 35, 35, 35, 35, 35, 35, 35, 35, 35, 35]
+ulTrafficDelayPerFqRange : [-1, -1]
+userLabel : <empty>
+
+
+
+create
+FDN : SubNetwork=ONRM_ROOT_MO,MeContext=UNL00038,ManagedElement=UNL00038,Equipment=1,AntennaUnitGroup=3,RfBranch=13
+auPortRef : <empty>
+dlAttenuation : [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+dlAttenuationPerFqRange : [-1, -1]
+dlTrafficDelay : [35, 35, 35, 35, 35, 35, 35, 35, 35, 35, 35, 35, 35, 35, 35]
+dlTrafficDelayPerFqRange : [-1, -1]
+rfBranchId : "13"
+rfPortRef : <empty>
+tmaRef : <empty>
+ulAttenuation : [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+ulAttenuationPerFqRange : [-1, -1]
+ulTrafficDelay : [35, 35, 35, 35, 35, 35, 35, 35, 35, 35, 35, 35, 35, 35, 35]
+ulTrafficDelayPerFqRange : [-1, -1]
+userLabel : <empty>
+
+set
+FDN : SubNetwork=ONRM_ROOT_MO,MeContext=UNL00038,ManagedElement=UNL00038,Equipment=1,AntennaUnitGroup=3,RfBranch=10
+rfPortRef : "SubNetwork=ONRM_ROOT_MO,MeContext=UNL00038,ManagedElement=UNL00038,Equipment=1,FieldReplaceableUnit=RRU-1,RfBranch=E"
+
+
+set
+FDN : SubNetwork=ONRM_ROOT_MO,MeContext=UNL00038,ManagedElement=UNL00038,Equipment=1,AntennaUnitGroup=3,RfBranch=11
+rfPortRef : "SubNetwork=ONRM_ROOT_MO,MeContext=UNL00038,ManagedElement=UNL00038,Equipment=1,FieldReplaceableUnit=RRU-1,RfBranch=G"
+
+set
+FDN : SubNetwork=ONRM_ROOT_MO,MeContext=UNL00038,ManagedElement=UNL00038,Equipment=1,AntennaUnitGroup=3,RfBranch=12
+rfPortRef : "SubNetwork=ONRM_ROOT_MO,MeContext=UNL00038,ManagedElement=UNL00038,Equipment=1,FieldReplaceableUnit=RRU-1,RfBranch=F"
+
+set
+FDN : SubNetwork=ONRM_ROOT_MO,MeContext=UNL00038,ManagedElement=UNL00038,Equipment=1,AntennaUnitGroup=3,RfBranch=13
+rfPortRef : "SubNetwork=ONRM_ROOT_MO,MeContext=UNL00038,ManagedElement=UNL00038,Equipment=1,FieldReplaceableUnit=RRU-1,RfBranch=H"
+
+set
+FDN : SubNetwork=ONRM_ROOT_MO,MeContext=UNL00038,ManagedElement=UNL00038,Equipment=1,AntennaUnitGroup=3,RfBranch=10
+auPortRef : "SubNetwork=ONRM_ROOT_MO,MeContext=UNL00038,ManagedElement=UNL00038,Equipment=1,AntennaUnitGroup=3,AntennaUnit=3,AntennaSubunit=3,AuPort=1"
+
+
+set
+FDN : SubNetwork=ONRM_ROOT_MO,MeContext=UNL00038,ManagedElement=UNL00038,Equipment=1,AntennaUnitGroup=3,RfBranch=11
+auPortRef :"SubNetwork=ONRM_ROOT_MO,MeContext=UNL00038,ManagedElement=UNL00038,Equipment=1,AntennaUnitGroup=3,AntennaUnit=3,AntennaSubunit=3,AuPort=2"
+
+set
+FDN : SubNetwork=ONRM_ROOT_MO,MeContext=UNL00038,ManagedElement=UNL00038,Equipment=1,AntennaUnitGroup=3,RfBranch=12
+auPortRef : "SubNetwork=ONRM_ROOT_MO,MeContext=UNL00038,ManagedElement=UNL00038,Equipment=1,AntennaUnitGroup=3,AntennaUnit=3,AntennaSubunit=3,AuPort=3"
+
+set
+FDN : SubNetwork=ONRM_ROOT_MO,MeContext=UNL00038,ManagedElement=UNL00038,Equipment=1,AntennaUnitGroup=3,RfBranch=13
+auPortRef : "SubNetwork=ONRM_ROOT_MO,MeContext=UNL00038,ManagedElement=UNL00038,Equipment=1,AntennaUnitGroup=3,AntennaUnit=3,AntennaSubunit=3,AuPort=4"
+
+
+
+set
+FDN : SubNetwork=ONRM_ROOT_MO,MeContext=UNL00038,ManagedElement=UNL00038,ENodeBFunction=1,SectorCarrier=5
+noOfRxAntennas : "4"
+noOfTxAntennas : "4"
+configuredMaxTxPower : "240000"
+
+set
+FDN : SubNetwork=ONRM_ROOT_MO,MeContext=UNL00038,ManagedElement=UNL00038,NodeSupport=1,SectorEquipmentFunction=5
+rfBranchRef: ["SubNetwork=ONRM_ROOT_MO,MeContext=UNL00038,ManagedElement=UNL00038,Equipment=1,AntennaUnitGroup=3,RfBranch=10", "SubNetwork=ONRM_ROOT_MO,MeContext=UNL00038,ManagedElement=UNL00038,Equipment=1,AntennaUnitGroup=3,RfBranch=11", "SubNetwork=ONRM_ROOT_MO,MeContext=UNL00038,ManagedElement=UNL00038,Equipment=1,AntennaUnitGroup=3,RfBranch=12", "SubNetwork=ONRM_ROOT_MO,MeContext=UNL00038,ManagedElement=UNL00038,Equipment=1,AntennaUnitGroup=3,RfBranch=13"]
+
+
+set
+FDN : SubNetwork=ONRM_ROOT_MO,MeContext=UNL00038,ManagedElement=UNL00038,ENodeBFunction=1,SectorCarrier=5
+rfBranchRxRef  :["SubNetwork=ONRM_ROOT_MO,MeContext=UNL00038,ManagedElement=UNL00038,Equipment=1,AntennaUnitGroup=3,RfBranch=10", "SubNetwork=ONRM_ROOT_MO,MeContext=UNL00038,ManagedElement=UNL00038,Equipment=1,AntennaUnitGroup=3,RfBranch=11", "SubNetwork=ONRM_ROOT_MO,MeContext=UNL00038,ManagedElement=UNL00038,Equipment=1,AntennaUnitGroup=3,RfBranch=12", "SubNetwork=ONRM_ROOT_MO,MeContext=UNL00038,ManagedElement=UNL00038,Equipment=1,AntennaUnitGroup=3,RfBranch=13"]
+rfBranchTxRef  :["SubNetwork=ONRM_ROOT_MO,MeContext=UNL00038,ManagedElement=UNL00038,Equipment=1,AntennaUnitGroup=3,RfBranch=10", "SubNetwork=ONRM_ROOT_MO,MeContext=UNL00038,ManagedElement=UNL00038,Equipment=1,AntennaUnitGroup=3,RfBranch=11", "SubNetwork=ONRM_ROOT_MO,MeContext=UNL00038,ManagedElement=UNL00038,Equipment=1,AntennaUnitGroup=3,RfBranch=12", "SubNetwork=ONRM_ROOT_MO,MeContext=UNL00038,ManagedElement=UNL00038,Equipment=1,AntennaUnitGroup=3,RfBranch=13"]
+
+
+
+
+set
+FDN : "SubNetwork=ONRM_ROOT_MO,MeContext=UNL00038,ManagedElement=UNL00038,ENodeBFunction=1,EUtranCellFDD=UNL00038_2C_1"
+pZeroNominalPucch : -120
+pZeroNominalPusch : -84
+
+
+set
+FDN : SubNetwork=ONRM_ROOT_MO,MeContext=UNL00038,ManagedElement=UNL00038,Equipment=1,FieldReplaceableUnit=RRU-1,RfBranch=E
+vswrSupervisionActive : true
+vswrSupervisionSensitivity : 70
+
+set
+FDN : SubNetwork=ONRM_ROOT_MO,MeContext=UNL00038,ManagedElement=UNL00038,Equipment=1,FieldReplaceableUnit=RRU-1,RfBranch=F
+vswrSupervisionActive : true
+vswrSupervisionSensitivity : 70
+
+set
+FDN : SubNetwork=ONRM_ROOT_MO,MeContext=UNL00038,ManagedElement=UNL00038,Equipment=1,FieldReplaceableUnit=RRU-1,RfBranch=G
+vswrSupervisionActive : true
+vswrSupervisionSensitivity : 70
+
+set
+FDN : SubNetwork=ONRM_ROOT_MO,MeContext=UNL00038,ManagedElement=UNL00038,Equipment=1,FieldReplaceableUnit=RRU-1,RfBranch=H
+vswrSupervisionActive : true
+vswrSupervisionSensitivity : 70

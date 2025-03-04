@@ -1,0 +1,263 @@
+create
+FDN : "SubNetwork=ONRM_ROOT_MO,MeContext=MEL02960,ManagedElement=MEL02960,Equipment=1,FieldReplaceableUnit=RRU-1"
+administrativeState : UNLOCKED
+fieldReplaceableUnitId : "RRU-1"
+isSharedWithExternalMe : false
+positionInformation : <empty>
+positionRef : <empty>
+unitOpticalIndicatorControl : NOT_SET
+userLabel : <empty>
+
+
+create
+FDN : "SubNetwork=ONRM_ROOT_MO,MeContext=MEL02960,ManagedElement=MEL02960,Equipment=1,FieldReplaceableUnit=RRU-1,RfPort=A"
+administrativeState : UNLOCKED
+antennaSupervisionActive : false
+automaticANUrecovery : true
+pimdAlarmActive : false
+pimdMeasDuration : LONG
+pimdThreshold : 300
+rfPortId : "A"
+userLabel : <empty>
+vswrSupervisionActive : true
+vswrSupervisionSensitivity : 70
+
+create
+FDN : "SubNetwork=ONRM_ROOT_MO,MeContext=MEL02960,ManagedElement=MEL02960,Equipment=1,FieldReplaceableUnit=RRU-1,RfPort=B"
+administrativeState : UNLOCKED
+antennaSupervisionActive : false
+automaticANUrecovery : true
+pimdAlarmActive : false
+pimdMeasDuration : LONG
+pimdThreshold : 300
+rfPortId : "B"
+userLabel : <empty>
+vswrSupervisionActive : true
+vswrSupervisionSensitivity : 70
+
+create
+FDN : "SubNetwork=ONRM_ROOT_MO,MeContext=MEL02960,ManagedElement=MEL02960,Equipment=1,FieldReplaceableUnit=RRU-1,RfPort=C"
+administrativeState : UNLOCKED
+antennaSupervisionActive : false
+automaticANUrecovery : true
+pimdAlarmActive : false
+pimdMeasDuration : LONG
+pimdThreshold : 300
+rfPortId : "C"
+userLabel : <empty>
+vswrSupervisionActive : true
+vswrSupervisionSensitivity : 70
+
+create
+FDN : "SubNetwork=ONRM_ROOT_MO,MeContext=MEL02960,ManagedElement=MEL02960,Equipment=1,FieldReplaceableUnit=RRU-1,RfPort=D"
+administrativeState : UNLOCKED
+antennaSupervisionActive : false
+automaticANUrecovery : true
+pimdAlarmActive : false
+pimdMeasDuration : LONG
+pimdThreshold : 300
+rfPortId : "D"
+userLabel : <empty>
+vswrSupervisionActive : true
+vswrSupervisionSensitivity : 70
+
+
+create
+FDN : "SubNetwork=ONRM_ROOT_MO,MeContext=MEL02960,ManagedElement=MEL02960,Equipment=1,FieldReplaceableUnit=RRU-1,RfPort=R"
+administrativeState : UNLOCKED
+antennaSupervisionActive : false
+automaticANUrecovery : true
+pimdAlarmActive : false
+pimdMeasDuration : LONG
+pimdThreshold : 300
+rfPortId : "R"
+userLabel : <empty>
+vswrSupervisionActive : false
+vswrSupervisionSensitivity : -1
+
+
+create
+FDN : "SubNetwork=ONRM_ROOT_MO,MeContext=MEL02960,ManagedElement=MEL02960,Equipment=1,FieldReplaceableUnit=RRU-1,RiPort=DATA_1"
+administrativeState : UNLOCKED
+preferredSfpProductNumber : <empty>
+riPortId : "DATA_1"
+
+create
+FDN : "SubNetwork=ONRM_ROOT_MO,MeContext=MEL02960,ManagedElement=MEL02960,Equipment=1,FieldReplaceableUnit=RRU-1,RiPort=DATA_2"
+administrativeState : UNLOCKED
+preferredSfpProductNumber : <empty>
+riPortId : "DATA_2"
+
+
+
+create
+FDN : SubNetwork=ONRM_ROOT_MO,MeContext=MEL02960,ManagedElement=MEL02960,Equipment=1,AntennaUnitGroup=1,AntennaUnit=1,AntennaSubunit=1,AuPort=1
+auPortId : "1"
+userLabel : <empty>
+
+create
+FDN : SubNetwork=ONRM_ROOT_MO,MeContext=MEL02960,ManagedElement=MEL02960,Equipment=1,AntennaUnitGroup=1,AntennaUnit=1,AntennaSubunit=1,AuPort=2
+auPortId : "2"
+userLabel : <empty>
+
+create
+FDN : SubNetwork=ONRM_ROOT_MO,MeContext=MEL02960,ManagedElement=MEL02960,Equipment=1,AntennaUnitGroup=1,AntennaUnit=1,AntennaSubunit=1,AuPort=3
+auPortId : "3"
+userLabel : <empty>
+
+
+create
+FDN : SubNetwork=ONRM_ROOT_MO,MeContext=MEL02960,ManagedElement=MEL02960,Equipment=1,AntennaUnitGroup=1,AntennaUnit=1,AntennaSubunit=1,AuPort=4
+auPortId : "4"
+userLabel : <empty>
+
+
+create
+FDN : SubNetwork=ONRM_ROOT_MO,MeContext=MEL02960,ManagedElement=MEL02960,Equipment=1,AntennaUnitGroup=1,RfBranch=1
+auPortRef : <empty>
+dlAttenuation : [3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3]
+dlAttenuationPerFqRange : [-1, -1]
+dlTrafficDelay : [14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14]
+dlTrafficDelayPerFqRange : [-1, -1]
+rfBranchId : "1"
+rfPortRef : <empty>
+tmaRef : <empty>
+ulAttenuation : [3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3]
+ulAttenuationPerFqRange : [-1, -1]
+ulTrafficDelay : [14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14]
+ulTrafficDelayPerFqRange : [-1, -1]
+userLabel : <empty>
+
+
+
+create
+FDN : SubNetwork=ONRM_ROOT_MO,MeContext=MEL02960,ManagedElement=MEL02960,Equipment=1,AntennaUnitGroup=1,RfBranch=2
+auPortRef : <empty>
+dlAttenuation : [3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3]
+dlAttenuationPerFqRange : [-1, -1]
+dlTrafficDelay : [14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14]
+dlTrafficDelayPerFqRange : [-1, -1]
+rfBranchId : "2"
+rfPortRef : <empty>
+tmaRef : <empty>
+ulAttenuation : [3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3]
+ulAttenuationPerFqRange : [-1, -1]
+ulTrafficDelay : [14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14]
+ulTrafficDelayPerFqRange : [-1, -1]
+userLabel : <empty>
+
+
+create
+FDN : SubNetwork=ONRM_ROOT_MO,MeContext=MEL02960,ManagedElement=MEL02960,Equipment=1,AntennaUnitGroup=1,RfBranch=3
+auPortRef : <empty>
+dlAttenuation : [3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3]
+dlAttenuationPerFqRange : [-1, -1]
+dlTrafficDelay : [14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14]
+dlTrafficDelayPerFqRange : [-1, -1]
+rfBranchId : "3"
+rfPortRef : <empty>
+tmaRef : <empty>
+ulAttenuation : [3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3]
+ulAttenuationPerFqRange : [-1, -1]
+ulTrafficDelay : [14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14]
+ulTrafficDelayPerFqRange : [-1, -1]
+userLabel : <empty>
+
+
+
+create
+FDN : SubNetwork=ONRM_ROOT_MO,MeContext=MEL02960,ManagedElement=MEL02960,Equipment=1,AntennaUnitGroup=1,RfBranch=4
+auPortRef : <empty>
+dlAttenuation : [3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3]
+dlAttenuationPerFqRange : [-1, -1]
+dlTrafficDelay : [14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14]
+dlTrafficDelayPerFqRange : [-1, -1]
+rfBranchId : "4"
+rfPortRef : <empty>
+tmaRef : <empty>
+ulAttenuation : [3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3]
+ulAttenuationPerFqRange : [-1, -1]
+ulTrafficDelay : [14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14]
+ulTrafficDelayPerFqRange : [-1, -1]
+userLabel : <empty>
+
+set
+FDN : SubNetwork=ONRM_ROOT_MO,MeContext=MEL02960,ManagedElement=MEL02960,Equipment=1,AntennaUnitGroup=1,RfBranch=1
+rfPortRef : "SubNetwork=ONRM_ROOT_MO,MeContext=MEL02960,ManagedElement=MEL02960,Equipment=1,FieldReplaceableUnit=RRU-1,RfPort=A"
+
+
+set
+FDN : SubNetwork=ONRM_ROOT_MO,MeContext=MEL02960,ManagedElement=MEL02960,Equipment=1,AntennaUnitGroup=1,RfBranch=2
+rfPortRef : "SubNetwork=ONRM_ROOT_MO,MeContext=MEL02960,ManagedElement=MEL02960,Equipment=1,FieldReplaceableUnit=RRU-1,RfPort=C"
+
+set
+FDN : SubNetwork=ONRM_ROOT_MO,MeContext=MEL02960,ManagedElement=MEL02960,Equipment=1,AntennaUnitGroup=1,RfBranch=3
+rfPortRef : "SubNetwork=ONRM_ROOT_MO,MeContext=MEL02960,ManagedElement=MEL02960,Equipment=1,FieldReplaceableUnit=RRU-1,RfPort=B"
+
+set
+FDN : SubNetwork=ONRM_ROOT_MO,MeContext=MEL02960,ManagedElement=MEL02960,Equipment=1,AntennaUnitGroup=1,RfBranch=4
+rfPortRef : "SubNetwork=ONRM_ROOT_MO,MeContext=MEL02960,ManagedElement=MEL02960,Equipment=1,FieldReplaceableUnit=RRU-1,RfPort=D"
+
+set
+FDN : SubNetwork=ONRM_ROOT_MO,MeContext=MEL02960,ManagedElement=MEL02960,Equipment=1,AntennaUnitGroup=1,RfBranch=1
+auPortRef : "SubNetwork=ONRM_ROOT_MO,MeContext=MEL02960,ManagedElement=MEL02960,Equipment=1,AntennaUnitGroup=1,AntennaUnit=1,AntennaSubunit=1,AuPort=1"
+
+
+set
+FDN : SubNetwork=ONRM_ROOT_MO,MeContext=MEL02960,ManagedElement=MEL02960,Equipment=1,AntennaUnitGroup=1,RfBranch=2
+auPortRef :"SubNetwork=ONRM_ROOT_MO,MeContext=MEL02960,ManagedElement=MEL02960,Equipment=1,AntennaUnitGroup=1,AntennaUnit=1,AntennaSubunit=1,AuPort=2"
+
+set
+FDN : SubNetwork=ONRM_ROOT_MO,MeContext=MEL02960,ManagedElement=MEL02960,Equipment=1,AntennaUnitGroup=1,RfBranch=3
+auPortRef : "SubNetwork=ONRM_ROOT_MO,MeContext=MEL02960,ManagedElement=MEL02960,Equipment=1,AntennaUnitGroup=1,AntennaUnit=1,AntennaSubunit=1,AuPort=3"
+
+set
+FDN : SubNetwork=ONRM_ROOT_MO,MeContext=MEL02960,ManagedElement=MEL02960,Equipment=1,AntennaUnitGroup=1,RfBranch=4
+auPortRef : "SubNetwork=ONRM_ROOT_MO,MeContext=MEL02960,ManagedElement=MEL02960,Equipment=1,AntennaUnitGroup=1,AntennaUnit=1,AntennaSubunit=1,AuPort=4"
+
+
+
+set
+FDN : SubNetwork=ONRM_ROOT_MO,MeContext=MEL02960,ManagedElement=MEL02960,ENodeBFunction=1,SectorCarrier=1
+noOfRxAntennas : "4"
+noOfTxAntennas : "4"
+configuredMaxTxPower : "160000"
+
+set
+FDN : SubNetwork=ONRM_ROOT_MO,MeContext=MEL02960,ManagedElement=MEL02960,NodeSupport=1,SectorEquipmentFunction=1
+rfBranchRef: ["SubNetwork=ONRM_ROOT_MO,MeContext=MEL02960,ManagedElement=MEL02960,Equipment=1,AntennaUnitGroup=1,RfBranch=1", "SubNetwork=ONRM_ROOT_MO,MeContext=MEL02960,ManagedElement=MEL02960,Equipment=1,AntennaUnitGroup=1,RfBranch=2", "SubNetwork=ONRM_ROOT_MO,MeContext=MEL02960,ManagedElement=MEL02960,Equipment=1,AntennaUnitGroup=1,RfBranch=3", "SubNetwork=ONRM_ROOT_MO,MeContext=MEL02960,ManagedElement=MEL02960,Equipment=1,AntennaUnitGroup=1,RfBranch=4"]
+
+
+set
+FDN : SubNetwork=ONRM_ROOT_MO,MeContext=MEL02960,ManagedElement=MEL02960,ENodeBFunction=1,SectorCarrier=1
+rfBranchRxRef  :["SubNetwork=ONRM_ROOT_MO,MeContext=MEL02960,ManagedElement=MEL02960,Equipment=1,AntennaUnitGroup=1,RfBranch=1", "SubNetwork=ONRM_ROOT_MO,MeContext=MEL02960,ManagedElement=MEL02960,Equipment=1,AntennaUnitGroup=1,RfBranch=2", "SubNetwork=ONRM_ROOT_MO,MeContext=MEL02960,ManagedElement=MEL02960,Equipment=1,AntennaUnitGroup=1,RfBranch=3", "SubNetwork=ONRM_ROOT_MO,MeContext=MEL02960,ManagedElement=MEL02960,Equipment=1,AntennaUnitGroup=1,RfBranch=4"]
+rfBranchTxRef  :["SubNetwork=ONRM_ROOT_MO,MeContext=MEL02960,ManagedElement=MEL02960,Equipment=1,AntennaUnitGroup=1,RfBranch=1", "SubNetwork=ONRM_ROOT_MO,MeContext=MEL02960,ManagedElement=MEL02960,Equipment=1,AntennaUnitGroup=1,RfBranch=2", "SubNetwork=ONRM_ROOT_MO,MeContext=MEL02960,ManagedElement=MEL02960,Equipment=1,AntennaUnitGroup=1,RfBranch=3", "SubNetwork=ONRM_ROOT_MO,MeContext=MEL02960,ManagedElement=MEL02960,Equipment=1,AntennaUnitGroup=1,RfBranch=4"]
+
+
+
+
+set
+FDN : "SubNetwork=ONRM_ROOT_MO,MeContext=MEL02960,ManagedElement=MEL02960,ENodeBFunction=1,EUtranCellFDD=MEL02960_7A_1"
+pZeroNominalPucch : -120
+pZeroNominalPusch : -84
+
+
+set
+FDN : SubNetwork=ONRM_ROOT_MO,MeContext=MEL02960,ManagedElement=MEL02960,Equipment=1,FieldReplaceableUnit=RRU-1,RfPort=A
+vswrSupervisionActive : true
+vswrSupervisionSensitivity : 70
+
+set
+FDN : SubNetwork=ONRM_ROOT_MO,MeContext=MEL02960,ManagedElement=MEL02960,Equipment=1,FieldReplaceableUnit=RRU-1,RfPort=B
+vswrSupervisionActive : true
+vswrSupervisionSensitivity : 70
+
+set
+FDN : SubNetwork=ONRM_ROOT_MO,MeContext=MEL02960,ManagedElement=MEL02960,Equipment=1,FieldReplaceableUnit=RRU-1,RfPort=C
+vswrSupervisionActive : true
+vswrSupervisionSensitivity : 70
+
+set
+FDN : SubNetwork=ONRM_ROOT_MO,MeContext=MEL02960,ManagedElement=MEL02960,Equipment=1,FieldReplaceableUnit=RRU-1,RfPort=D
+vswrSupervisionActive : true
+vswrSupervisionSensitivity : 70
